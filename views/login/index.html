@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../css/tailwind.min.css" />
+    <title>Home</title>
+  </head>
+  <body class="bg-gray-400">
+    <p class="notification bg-gray-100 text-red-700 font-bold"></p>
+    <div id="container" class="bg-gray-200">
+      <h1 id="form-title" class="text-2xl text-gray-700 text-center">
+        Iniciar sesión
+      </h1>
+      <form id="form-login">
+        <input
+          class="bg-gray-400 sm:rounded-lg"
+          type="text"
+          id="login-input"
+          class="form-input"
+          autocomplete="off"
+        />
+        <button
+          class="form-btn text-blue-600 md:text-indigo-600 font-medium hover:text-gray-200"
+          type="submit"
+        >
+          Ingresar
+        </button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant full stack</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/tailwind.min.css" />
+    
+</head>
+<body>
+
+    <header class="py-4  bg-blue-700 head">
+        <div>
+            <h1 class="text-center text-white fs-3">Restaurant full stack</h1>
+            
+        </div>
+        
+        <div class="cerrar" >
+            <h1 class="text-center text-white fs-3" id="usuario"></h1><br>
+            <button class='bg-blue-800 border-gray-200 rounded-lg hover:text-yellow-400 text-white  hover:bg-blue-500' id="cerrar-btn">Cerrar sesión</button>
+        </div>
+                
+    </header>
+  
+
+    <div class="d-flex mt-4 justify-content-center">
+        <button  data-bs-toggle="modal" data-bs-target="#formulario" type="button" class="btn btn-success">Nueva Orden</button>
+    </div>
+
+
+    <main id="menu" class="container bg-light mt-5 p-4 d-none">
+        <h2  class="text-center my-4 text-red-700 text-2xl" >Pedidos</h2>
+
+        <div class="contenido"></div>
+    </main>
+    <section id="resumen2" class="resumen bg-light container mt-5 p-4 d-none">
+        <h2 class="text-center my-4 text-red-700 text-2xl">Resumen De Pedido Anterior </h2>
+        <div class="flex flex-col mt-10">
+  <div class="py-2 overflow-x-auto">
+    <div
+      class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200"
+    >
+      <table class="min-w-full">
+        <thead class="bg-gray-100">
+          <tr>
+            <th
+              class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+            >
+              Nombre 
+            </th>
+            <th
+              class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+            >
+              Mesa
+            </th>
+            <th
+              class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+            >
+              Hora
+            </th>
+            <th
+              class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+            >
+              Pedido
+            </th>
+          </tr>
+        </thead>
+        <tbody id="listado-Pedidos" class="bg-white"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+     
+    </section>
+    
+    <section id="resumen" class="resumen bg-light container mt-5 p-4 d-none">
+        <h2 class="text-center my-4 text-red-700 text-2xl">Resumen De Pedido De Hoy</h2>
+
+        <div class="contenido row">
+            <p class="text-center">Añade los elementos del pedido</p>
+        </div>
+    </section>
+
+    <!-- Modal -->
+        <div class="modal fade" id="formulario">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title"">Restaurant App</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Mesa</label>
+                                <input id="mesa" type="number" class="form-control" min="1" max="8">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Hora</label>
+                                <input id="hora" type="time" class="form-control" >
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button id="guardar-cliente" type="button" class="btn btn-primary">Crear Orden</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script src="js/restaurant.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

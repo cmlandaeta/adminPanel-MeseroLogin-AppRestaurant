@@ -1,0 +1,14 @@
+.inputCant {
+  width: 3px;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  justify-items: end;
+}
+
+.cerrar {
+  display: flex;
+  flex-direction: column;
+}

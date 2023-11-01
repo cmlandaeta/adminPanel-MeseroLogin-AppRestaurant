@@ -1,0 +1,15 @@
+{
+  "name": "adminpanel",
+  "version": "1.0.0",
+  "description": "Panel Admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "admin": "json-server --watch menu.json"
+  },
+  "author": "Carlos Landaeta",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="../../css/tailwind.min.css" />
+  </head>
+  <body class="min-h-100 bg-gray-200">
+    <div class="md:flex min-h-screen md:align-top">
+      <aside class="md:w-2/5 lg:w-2/5 xl:w-1/5 bg-blue-600 px-5 py-10">
+        <h1 class="uppercase text-white tracking-wide text-2xl font-bold mt-2">
+          RESTAURANT APP
+        </h1>
+        <p class="mt-10 text-white">Administra tus Productos</p>
+        <nav class="mt-8">
+          <a
+            href="index.html"
+            class="px-3 py-1 text-white block hover:bg-blue-700 hover:text-yellow-400 bg-blue-700"
+            >Productos</a
+          >
+          <a
+            href="nuevo-producto.html"
+            class="px-3 py-1 text-white block hover:bg-blue-900 mt-2 hover:text-yellow-400"
+            >Nuevo Producto</a
+          >
+          <a
+            href="lista_usuarios.html"
+            class="px-3 py-1 text-red-700 font-bold block hover:bg-blue-900 mt-2 hover:text-yellow-400"
+            >Crear Usuario</a
+          >
+          <a
+            href="lista_usuarios.html"
+            class="px-3 py-1 text-white font-bold block hover:bg-blue-900 mt-2 hover:text-yellow-400"
+            >Listar Usuarios</a
+          >
+        </nav>
+      </aside>
+      <!--sidebar-->
+      <main class="md:w-3/5 xl:w-4/5 px-5 py-10 bg-gray-200">
+        <h2 class="text-3xl font-light text-center">Productos</h2>
+        <div class="flex items-end flex-col">
+          <div>
+            <h1
+              class="text-center text-red-900 fs-3 text-2xl"
+              id="usuario"
+            ></h1>
+          </div>
+          <div>
+            <button
+              class="bg-blue-600 px-6 py-3 text-white border-gray-200 rounded-lg hover:bg-blue-500"
+              id="cerrar-btn"
+            >
+              Cerrar Sesión
+            </button>
+          </div>
+        </div>
+
+        <div class="flex flex-col mt-10">
+          <div class="py-2 overflow-x-auto">
+            <div
+              class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200"
+            >
+              <table class="min-w-full">
+                <thead class="bg-gray-100">
+                  <tr>
+                    <th
+                      class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+                    >
+                      Nombre Producto
+                    </th>
+                    <th
+                      class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+                    >
+                      Precio
+                    </th>
+                    <th
+                      class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+                    >
+                      Categoria
+                    </th>
+                    <th
+                      class="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider"
+                    >
+                      Acciones
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="listado-Productos" class="bg-white"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../../index.js" type="module"></script>
+  </body>
+</html>

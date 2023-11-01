@@ -1,0 +1,193 @@
+{
+  "menu": [
+    {
+      "nombre": "Pizza Grande",
+      "precio": "19",
+      "categoria": "2",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Ceviche",
+      "precio": 11,
+      "categoria": 2
+    },
+    {
+      "id": 4,
+      "nombre": "Pie de Parchita",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Torta de Chocolate",
+      "precio": 1.1,
+      "categoria": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Torta de Fresa",
+      "precio": 1.1,
+      "categoria": 2
+    },
+    {
+      "id": 7,
+      "nombre": "Jugo de Naranja",
+      "precio": 1.1,
+      "categoria": 3
+    },
+    {
+      "id": 8,
+      "nombre": "Jugo de Parchita",
+      "precio": 1.1,
+      "categoria": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Jugo de Parchita",
+      "precio": 1.1,
+      "categoria": 3
+    },
+    {
+      "id": 10,
+      "nombre": "Cheleta Ahumada",
+      "precio": 1.1,
+      "categoria": 4
+    },
+    {
+      "id": 11,
+      "nombre": "Pollo en Brasa",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 13,
+      "nombre": "Carne en Vara",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 14,
+      "nombre": "Carne en Vara",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 15,
+      "nombre": "Capuchino",
+      "precio": 2,
+      "categoria": 5
+    },
+    {
+      "id": 16,
+      "nombre": "Cerveza",
+      "precio": 0.5,
+      "categoria": 6
+    },
+    {
+      "id": 17,
+      "nombre": "Ron",
+      "precio": 2,
+      "categoria": 6
+    },
+    {
+      "id": 18,
+      "nombre": "Helado de Fresa",
+      "precio": 2,
+      "categoria": 2
+    },
+    {
+      "id": 19,
+      "nombre": "Helado de Chocolate",
+      "precio": 2,
+      "categoria": 2
+    },
+    {
+      "nombre": "Nuevo",
+      "precio": "10",
+      "categoria": "3",
+      "id": 20
+    },
+    {
+      "nombre": "Sushi",
+      "precio": "18",
+      "categoria": "2",
+      "id": 21
+    },
+    {
+      "nombre": "Pasticho",
+      "precio": "7",
+      "categoria": "2",
+      "id": 22
+    },
+    {
+      "nombre": "Marinera",
+      "precio": "20",
+      "categoria": "4",
+      "id": 23
+    }
+  ],
+  "users": [
+    {
+      "nombre": "Juan",
+      "categoria": "Meseros",
+      "id": 1
+    },
+    {
+      "nombre": "Admin",
+      "categoria": "Admin",
+      "id": 2
+    },
+    {
+      "nombre": "Sergio",
+      "categoria": "Mesero",
+      "id": 3
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "mesero": "Juan",
+      "mesa": "1",
+      "hora": "19:52",
+      "pedido": [
+        {
+          "id": "5",
+          "nombre": "Pie de Parchita",
+          "precio": 5,
+          "categoria": 2,
+          "cantidad": 1
+        },
+        {
+          "id": "6",
+          "nombre": "Torta de Chocolate",
+          "precio": 9,
+          "categoria": 2,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "mesero": "Juan",
+      "mesa": "2",
+      "hora": "22:14",
+      "pedido": [
+        {
+          "id": 8,
+          "nombre": "Jugo de Parchita",
+          "precio": 1.1,
+          "categoria": 3,
+          "cantidad": 1
+        },
+        {
+          "id": 10,
+          "nombre": "Cheleta Ahumada",
+          "precio": 1.1,
+          "categoria": 4,
+          "cantidad": 1
+        }
+      ]
+    }
+  ]
+}

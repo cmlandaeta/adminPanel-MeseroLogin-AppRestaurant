@@ -1,0 +1,127 @@
+{
+    "menu": [
+      {
+        "id": "1",
+        "nombre": 10,
+        "precio": 1.1,
+        "categoria": 2
+      },
+      {
+        "id": "2",
+        "nombre": 10,
+        "precio": 1.1,
+        "categoria": 2
+      },
+      {
+        "id": "3",
+        "nombre": "Pizza Grande",
+        "precio": 1.1,
+        "categoria": 2
+      },
+      {
+        "id": "4",
+        "nombre": 10,
+        "precio": 1.1,
+        "categoria": 2
+      },
+      {
+        "id": "5",
+        "nombre": "Pie de Parchita",
+        "precio": 5,
+        "categoria": 2
+      },
+      {
+        "id": "6",
+        "nombre": "Torta de Chocolate",
+        "precio": 1.1,
+        "categoria": 2
+      },
+      {
+        "id": "7",
+        "nombre": "Torta de Fresa",
+        "precio": 1.1,
+        "categoria": 2
+      },
+      {
+        "id": "8",
+        "nombre": "Jugo de Naranja",
+        "precio": 1.1,
+        "categoria": 3
+      },
+      {
+        "id": "9",
+        "nombre": "Jugo de Parchita",
+        "precio": 1.1,
+        "categoria": 3
+      },
+      {
+        "id": "10",
+        "nombre": "Jugo de Parchita",
+        "precio": 1.1,
+        "categoria": 3
+      },
+      {
+        "id": "11",
+        "nombre": "Cheleta Ahumada",
+        "precio": 1.1,
+        "categoria": 4
+      },
+      {
+        "id": "12",
+        "nombre": "Pollo en Brasa",
+        "precio": 6,
+        "categoria": 4
+      },
+
+      {
+        "id": "13",
+        "nombre": "Carne en Vara",
+        "precio": 6,
+        "categoria": 4
+      },
+      {
+        "id": "14",
+        "nombre": "Carne en Vara",
+        "precio": 6,
+        "categoria": 4
+      },
+      {
+        "id": "15",
+        "nombre": "Carne en Vara",
+        "precio": 6,
+        "categoria": 4
+      },
+
+      {
+        "id": "16",
+        "nombre": "Capuchino",
+        "precio": 2,
+        "categoria": 5
+      },
+      {
+        "id": "17",
+        "nombre": "Cerveza",
+        "precio": 0.5,
+        "categoria": 6
+      },
+      {
+        "id": "18",
+        "nombre": "Ron",
+        "precio": 2,
+        "categoria": 6
+      },
+      {
+        "id": "19",
+        "nombre": "Helado de Fresa",
+        "precio": 2,
+        "categoria": 2
+      },
+      {
+        "id": "20",
+        "nombre": "Helado de Chocolate",
+        "precio": 2,
+        "categoria": 2
+      }
+    ]
+
+}
