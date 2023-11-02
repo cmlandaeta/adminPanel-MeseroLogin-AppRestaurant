@@ -3,14 +3,14 @@
     {
       "nombre": "Pizza Grande",
       "precio": "19",
-      "categoria": "2",
+      "categoria": "4",
       "id": 2
     },
     {
-      "id": 3,
       "nombre": "Ceviche",
-      "precio": 11,
-      "categoria": 2
+      "precio": "11",
+      "categoria": "4",
+      "id": 3
     },
     {
       "id": 4,
@@ -37,10 +37,10 @@
       "categoria": 3
     },
     {
-      "id": 8,
-      "nombre": "Jugo de Parchita",
-      "precio": 1.1,
-      "categoria": 3
+      "nombre": "Jugo de Mora",
+      "precio": "1",
+      "categoria": "3",
+      "id": 8
     },
     {
       "id": 9,
@@ -103,7 +103,7 @@
       "categoria": 2
     },
     {
-      "nombre": "Nuevo",
+      "nombre": "Jugo de Tomate",
       "precio": "10",
       "categoria": "3",
       "id": 20
@@ -111,13 +111,13 @@
     {
       "nombre": "Sushi",
       "precio": "18",
-      "categoria": "2",
+      "categoria": "4",
       "id": 21
     },
     {
       "nombre": "Pasticho",
       "precio": "7",
-      "categoria": "2",
+      "categoria": "4",
       "id": 22
     },
     {
@@ -185,6 +185,233 @@
           "nombre": "Cheleta Ahumada",
           "precio": 1.1,
           "categoria": 4,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "mesero": "Juan",
+      "mesa": "4",
+      "hora": "08:27",
+      "pedido": [
+        {
+          "nombre": "Marinera",
+          "precio": "20",
+          "categoria": "4",
+          "id": 23,
+          "cantidad": 1
+        },
+        {
+          "nombre": "Jugo de Tomate",
+          "precio": "10",
+          "categoria": "3",
+          "id": 20,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "mesero": "Juan",
+      "mesa": "6",
+      "hora": "08:29",
+      "pedido": [
+        {
+          "nombre": "Pasticho",
+          "precio": "7",
+          "categoria": "4",
+          "id": 22,
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "nombre": "Torta de Fresa",
+          "precio": 1.1,
+          "categoria": 2,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "mesero": "Juan",
+      "mesa": "7",
+      "hora": "11:34",
+      "pedido": [
+        {
+          "nombre": "Ceviche",
+          "precio": "11",
+          "categoria": "4",
+          "id": 3,
+          "cantidad": 1
+        },
+        {
+          "id": 16,
+          "nombre": "Cerveza",
+          "precio": 0.5,
+          "categoria": 6,
+          "cantidad": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "mesero": "Juan",
+      "mesa": "8",
+      "hora": "09:34",
+      "pedido": [
+        {
+          "id": 11,
+          "nombre": "Pollo en Brasa",
+          "precio": 6,
+          "categoria": 4,
+          "cantidad": 1
+        },
+        {
+          "id": 17,
+          "nombre": "Ron",
+          "precio": 2,
+          "categoria": 6,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "mesero": "Sergio",
+      "mesa": "5",
+      "hora": "10:36",
+      "pedido": [
+        {
+          "nombre": "Pizza Grande",
+          "precio": "19",
+          "categoria": "4",
+          "id": 2,
+          "cantidad": 1
+        },
+        {
+          "id": 19,
+          "nombre": "Helado de Chocolate",
+          "precio": 2,
+          "categoria": 2,
+          "cantidad": 1
+        },
+        {
+          "nombre": "Jugo de Tomate",
+          "precio": "10",
+          "categoria": "3",
+          "id": 20,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "mesero": "Sergio",
+      "mesa": "4",
+      "hora": "08:41",
+      "pedido": [
+        {
+          "nombre": "Marinera",
+          "precio": "20",
+          "categoria": "4",
+          "id": 23,
+          "cantidad": 1
+        },
+        {
+          "nombre": "Jugo de Tomate",
+          "precio": "10",
+          "categoria": "3",
+          "id": 20,
+          "cantidad": 1
+        },
+        {
+          "id": 19,
+          "nombre": "Helado de Chocolate",
+          "precio": 2,
+          "categoria": 2,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "mesero": "Sergio",
+      "mesa": "3",
+      "hora": "12:57",
+      "pedido": [
+        {
+          "nombre": "Ceviche",
+          "precio": "11",
+          "categoria": "4",
+          "id": 3,
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "nombre": "Torta de Fresa",
+          "precio": 1.1,
+          "categoria": 2,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "mesero": "Sergio",
+      "mesa": "3",
+      "hora": "09:55",
+      "pedido": [
+        {
+          "id": 11,
+          "nombre": "Pollo en Brasa",
+          "precio": 6,
+          "categoria": 4,
+          "cantidad": 1
+        },
+        {
+          "id": 16,
+          "nombre": "Cerveza",
+          "precio": 0.5,
+          "categoria": 6,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "mesero": "Sergio",
+      "mesa": "2",
+      "hora": "09:56",
+      "pedido": [
+        {
+          "id": 15,
+          "nombre": "Capuchino",
+          "precio": 2,
+          "categoria": 5,
+          "cantidad": 2
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "mesero": "Sergio",
+      "mesa": "3",
+      "hora": "10:18",
+      "pedido": [
+        {
+          "id": 6,
+          "nombre": "Torta de Fresa",
+          "precio": 1.1,
+          "categoria": 2,
+          "cantidad": 1
+        },
+        {
+          "id": 15,
+          "nombre": "Capuchino",
+          "precio": 2,
+          "categoria": 5,
           "cantidad": 1
         }
       ]

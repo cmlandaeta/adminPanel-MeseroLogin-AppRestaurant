@@ -13,7 +13,7 @@ if (user !== "Admin") {
   const cerrarBtn = document.querySelector("#cerrar-btn");
 
   cerrarBtn.addEventListener("click", async (e) => {
-    localStorage.removeItem("user");
+    localStorage.removeItem("usuario");
     window.location.href = "../login/index.html";
   });
 }

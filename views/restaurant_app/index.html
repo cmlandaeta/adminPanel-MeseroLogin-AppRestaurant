@@ -14,20 +14,29 @@
 
     <header class="py-4  bg-blue-700 head">
         <div>
-            <h1 class="text-center text-white fs-3">Restaurant full stack</h1>
+            <h1 class="text-center text-white fs-3"> APP Restaurant </h1>
             
         </div>
         
-        <div class="cerrar" >
+        <div class="cerrar flex justify-content-center" >
             <h1 class="text-center text-white fs-3" id="usuario"></h1><br>
-            <button class='bg-blue-800 border-gray-200 rounded-lg hover:text-yellow-400 text-white  hover:bg-blue-500' id="cerrar-btn">Cerrar sesión</button>
+            <button class='bg-blue-800 border-gray-200 rounded-lg hover:text-yellow-400 
+            text-white  hover:bg-blue-500' id="cerrar-btn">Cerrar sesión</button>
+                 
         </div>
+
+    
+       
+        
                 
     </header>
   
 
     <div class="d-flex mt-4 justify-content-center">
         <button  data-bs-toggle="modal" data-bs-target="#formulario" type="button" class="btn btn-success">Nueva Orden</button>
+            
+        <button class='bg-red-800 border-gray-200 rounded p-2 ml-1
+        text-white  hover:bg-blue-500' id="mostrar-anterior">Pedidos Atentidos</button>
     </div>
 
 
@@ -37,7 +46,7 @@
         <div class="contenido"></div>
     </main>
     <section id="resumen2" class="resumen bg-light container mt-5 p-4 d-none">
-        <h2 class="text-center my-4 text-red-700 text-2xl">Resumen De Pedido Anterior </h2>
+        <h2 class="text-center my-4 text-red-700 text-2xl">Resumen De Pedidos Atendidos</h2>
         <div class="flex flex-col mt-10">
   <div class="py-2 overflow-x-auto">
     <div

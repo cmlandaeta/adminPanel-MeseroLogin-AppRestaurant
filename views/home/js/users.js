@@ -10,14 +10,14 @@ const listado = document.querySelector("#listado-Usuarios");
 
 if (user !== "Admin") {
   //caso de que el usuario no este en LS lo devuelve a la pagina principal
-  window.location.href = "./js/index.html";
+  window.location.href = "../login/index.html";
 } else {
   const usuario = document.querySelector("#usuario");
   usuario.textContent = `Bienvenido, ${user}`;
   const cerrarBtn = document.querySelector("#cerrar-btn");
 
   cerrarBtn.addEventListener("click", async (e) => {
-    localStorage.removeItem("user");
+    localStorage.removeItem("usuario");
     window.location.href = "../login/index.html";
   });
 }
